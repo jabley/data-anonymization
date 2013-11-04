@@ -17,12 +17,13 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency('activerecord', '~> 3.2.13')
-  gem.add_dependency('composite_primary_keys', '~> 5.0.12')
-  gem.add_dependency('activesupport', '~> 3.2.13')
+  gem.add_dependency('activerecord', '~> 4.0.0')
+  gem.add_dependency('composite_primary_keys', '~> 6.0.0')
+  gem.add_dependency('activesupport', '~> 4.0.0')
   gem.add_dependency('rgeo', '~> 0.3.20')
   gem.add_dependency('rgeo-geojson', '~> 0.2.3')
   gem.add_dependency('powerbar', '~> 1.0.11')
+  gem.add_dependency('protected_attributes', '~> 1.0.5')
   gem.add_dependency('parallel', '~> 0.6.3')
   gem.add_dependency('thor', '~> 0.17.0')
 end
